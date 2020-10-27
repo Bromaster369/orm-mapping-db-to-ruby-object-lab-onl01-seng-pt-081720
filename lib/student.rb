@@ -53,6 +53,7 @@ class Student
       SELECT * 
       FROM students 
       WHERE x = ? 
+      LIMIT 1
       
     SQL
     
